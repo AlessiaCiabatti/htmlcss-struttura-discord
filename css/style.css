@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  height: 60px;
+  background-color: #add8e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* perchè queste ultime due regole le devo dare all'heder e non a container? */
+}
+
+.container{
+  display: flex;
+  height: 30px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.debug{
+  background-color: #daa520;
+  border: 1px solid black;
+  border-style: dotted;
+}
+
+.container .container-logo{
+  align-items: center;
+}
+
+.container .container-nav{
+  align-items: center;
+  justify-content: center;
+  /* width: 3000px; */
+  /* flex-grow? */
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+.container .container-accedi{
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
