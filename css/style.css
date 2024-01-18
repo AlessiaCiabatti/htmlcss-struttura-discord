@@ -12,14 +12,11 @@ header{
   height: 60px;
   background-color: #add8e6;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  /* perchè queste ultime due regole le devo dare all'heder e non a container? */
 }
 
 .container{
   display: flex;
-  height: 30px;
+  align-items: center;
   margin: 0 auto;
   width: 1000px;
 }
@@ -27,23 +24,16 @@ header{
 .debug{
   background-color: #daa520;
   border: 1px solid black;
-  border-style: dotted;
-}
-
-.container .box-logo{
-  align-items: center;
-  flex-grow: 1;
+  border-style: dashed;
 }
 
 .container .box-nav{
-  align-items: center;
-  justify-content: center;
-  /* width: 3000px; */
-  /* flex-grow? */
-  flex-grow: 3;
+  flex-grow: 1;
 }
 
 nav ul{
+  align-items: center;
+  justify-content: center;
   list-style: none;
   display: flex;
 }
@@ -57,7 +47,7 @@ nav ul{
 
 .elements-hero .debug{
   border: 1px solid black;
-  border-style: dotted;
+  border-style: dashed;
 }
 
 .box-hero{
@@ -78,49 +68,82 @@ nav ul{
 }
 /* /hero */
 
+/* main */
 .block-img .writing-block .debug{
   border: 1px solid black;
-  border-style: dotted;
+  border-style: dashed;
 }
 
-.container-white{
-  background-color: white;
-  height: 550px;
+.container-main{
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container-white .block-img{
+.container-main .block-img{
   background-color: #1e90ff;
-  height: 450px;
-  width: 620px;
+  height: 400px;
+  width: 600px;
 }
 
-.container-white .writing-block{
+.container-main .writing-block{
   background-color: #ffc0cb;
-  height: 450px;
+  height: 400px;
   width: 400px;
 }
 
 .container-grey{
   background-color: #d3d3d3;
-  height: 550px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: row-reverse;
 }
 
-.container-grey .block-img{
-  background-color: #1e90ff;
-  height: 450px;
-  width: 620px;
+.big-box{
+  background-color: #d3d3d3;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container-grey .writing-block{
-  background-color: #ffc0cb;
-  height: 450px;
-  width: 400px;
+.big-box .box-green{
+  background-color: #228b22;
+  height: 700px;
+  width: 1000px;
+  border-style: dashed;
 }
+/* /main */
+
+/* top footer */
+.container-footer{
+  background-color: #23272a;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.rectangle-footer{
+  background-color: white;
+  height: 500px;
+  width: 1000px;
+  display:flex;
+}
+
+.rectangle-footer .pink{
+  background-color: #f08080;
+  flex-grow: 2;
+  border: 1px black solid;
+  border-style: dashed;
+}
+
+.rectangle-footer .tiffany{
+  background-color: #20b2aa;
+  flex-grow: 1;
+  border: 1px white solid;
+  border-style: dashed;
+}
+/* /top footer */
+
+
 
