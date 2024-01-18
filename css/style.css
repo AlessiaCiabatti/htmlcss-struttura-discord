@@ -51,8 +51,22 @@ nav ul{
   justify-content: flex-end;
 }
 
+/* hero */
+.box-hero{
+  height: 500px;
+  background-color: #00008b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
-
+.box-hero .elements-hero{
+  background-color: #ee82ee;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
