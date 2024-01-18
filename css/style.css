@@ -30,15 +30,17 @@ header{
   border-style: dotted;
 }
 
-.container .container-logo{
+.container .box-logo{
   align-items: center;
+  flex-grow: 1;
 }
 
-.container .container-nav{
+.container .box-nav{
   align-items: center;
   justify-content: center;
   /* width: 3000px; */
   /* flex-grow? */
+  flex-grow: 3;
 }
 
 nav ul{
@@ -46,14 +48,20 @@ nav ul{
   display: flex;
 }
 
-.container .container-accedi{
+.container .box-accedi{
   align-items: center;
   justify-content: flex-end;
 }
 
 /* hero */
+
+.elements-hero .debug{
+  border: 1px solid black;
+  border-style: dotted;
+}
+
 .box-hero{
-  height: 500px;
+  height: 450px;
   background-color: #00008b;
   display: flex;
   align-items: center;
@@ -62,11 +70,35 @@ nav ul{
 
 .box-hero .elements-hero{
   background-color: #ee82ee;
-  height: 400px;
-  width: 800px;
+  height: 350px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* /hero */
+
+.block-img .writing-block .debug{
+  border: 1px solid black;
+  border-style: dotted;
+}
+
+.container-white{
+  background-color: white;
+  height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.container-white .block-img{
+  background-color: #1e90ff;
+  height: 450px;
+  width: 620px;
+}
 
+.container-white .writing-block{
+  background-color: #ffc0cb;
+  height: 450px;
+  width: 400px;
+}
