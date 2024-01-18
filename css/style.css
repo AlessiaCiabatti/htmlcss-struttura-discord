@@ -145,5 +145,34 @@ nav ul{
 }
 /* /top footer */
 
+.bottom-footer{
+  height: 70px;
+  background-color: #23272a;
+  display: flex;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
+.tasti-footer .debug{
+  border: 1px solid black;
+  border-style: dashed;
+}
 
+.bottom-footer .pincopallo{
+  background-color: #7fffd4;
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pincopallo .tasti-footer{
+  background-color: #ffb6c1;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
